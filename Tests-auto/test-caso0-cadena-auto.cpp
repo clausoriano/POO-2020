@@ -17,13 +17,13 @@ FCTMF_SUITE_BGN(test_cadena) {
 
   if (bPrimera) {
     bPrimera = false;
-    cerr << "\n---------- PRÁCTICA "
+    cerr <<
 #ifdef P0
-      "0"
+      "\n---------- PRÁCTICA 0: CADENA ----------\n"
 #else
-      "1"
+      "\n---------- PRÁCTICA 1: CADENA ----------\n"
 #endif
-      ": CADENA ----------\n" << endl;
+	 << endl;
   }
   // En P0 no se pide la función c_str, sino que hay un operador
   // de conversión a cadena de bajo nivel
